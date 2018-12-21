@@ -4,8 +4,9 @@
 
 2.警告灯服务程序: 用来转发DCS警告灯的状态,并发送给QuickUFC. 需要先运行此程序.
 
-3.支持DCS-BIOS协议,只需改动一句代码 DCS-BIOS/BIOSConfig.lua  ,   找到并修改如下 
-  BIOS.protocol_io.UDPSender:create({ port = 7777, host = "127.0.0.1" })
+3.支持DCS-BIOS协议,只需改动一句代码 DCS-BIOS/BIOSConfig.lua  ,   
+找到并修改如下:
+BIOS.protocol_io.UDPSender:create({ port = 7777, host = "127.0.0.1" })
   
 4.dcs-bios-v0.7.1_QuickUFC.zip 为已经修改好的dcs-bios v0.71的版本
   可以直接复制到 C:\Users\你的主机名\Saved Games\DCS\Scripts中. 
