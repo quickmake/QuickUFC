@@ -1,6 +1,7 @@
 # QuickUFC
 
-1. UFC按键配置: 中文版DCS 改入按键设置,省得需要每一个键去设置.<BR>
+1. UFC按键配置: 中文版DCS 改入按键设置,省得需要每一个键去设置.
+
 2.警告灯服务程序: 用来转发DCS警告灯的状态,并发送给QuickUFC. 需要先运行此程序.<BR>
 3.支持DCS-BIOS协议,只需改动一句代码 DCS-BIOS/BIOSConfig.lua  ,   找到并修改如下 <BR>
   BIOS.protocol_io.UDPSender:create({ port = 7777, host = "127.0.0.1" })  <BR>
